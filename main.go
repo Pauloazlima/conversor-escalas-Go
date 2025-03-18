@@ -11,4 +11,5 @@ func main() {
 	fmt.Scan(&kelvin)
 	celsius := conversor(kelvin)
 	fmt.Printf("A temperatura em Celsius é: %.2f", celsius)
+	fmt.Println("execução finalizada")
 }
